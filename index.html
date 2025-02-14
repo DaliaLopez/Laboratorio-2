@@ -15,6 +15,9 @@
             text-align: center;
             margin-bottom: 20px;
         }
+        a {
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
@@ -61,13 +64,15 @@
 
             <section id="formulario">
                 <h3>Formulario de Recomendaciones</h3>
-                    <form>
+                <fieldset>
+                <form>
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" placeholder="Escriba aquí su nombre" required><br><br>
                         <label for="mensaje">Mensaje:</label><br>
                         <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escriba aquí una recomendación o comentario acerca de mi CV" required></textarea><br><br>
                         <button type="submit">Enviar</button>
                     </form>
+                </fieldset>  
             </section>
 
             <section id="contacto">
