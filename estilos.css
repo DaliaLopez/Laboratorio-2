@@ -1,5 +1,95 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
+    font-family: Helvetica, sans-serif;
+    margin: 50px;
     text-align: justify;
+    display: flexbox;
 }
+
+p {
+    color: #313131;
+}
+
+.header ul li::first-letter {
+    font-weight: bold;
+}
+
+.header ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 10px 25px 0px;
+
+}
+
+#profile{
+    border-bottom: 3px solid #757575;
+}
+
+.profile {
+    padding-left: 0px;
+    padding-right: 50px;
+    width: 100%;
+
+}
+
+.profile-container {
+    display: flex;
+}
+
+.profile-element {
+    padding: 25px 10px 25px 0px;
+    width: 80%;
+}
+
+.profile-element2 {
+    padding-left: 10px;
+
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 20px;
+    background-color: #FFD2AB;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#education{
+    border-bottom: 3px solid #757575;
+}
+
+.education {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.education-container {
+    display: flex;
+}
+
+.education-element {
+    width: 50%;
+    margin-top: 0px;
+}
+
+.education-element2 {
+    width: 50%;
+    padding: 0px 25px 25px 0px;
+}
+
+.borde {
+    padding-left: 10px;
+    border-left: 3px solid #757575;
+
+}
+
