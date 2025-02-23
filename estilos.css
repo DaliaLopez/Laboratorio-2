@@ -60,6 +60,8 @@ h1 {
     color: rgb(80, 80, 80);
     padding: 5px;
     margin-top: 5px;
+    margin-bottom: 20px;
+
 }
 
 #education{
@@ -79,7 +81,7 @@ h1 {
 
 .education-element {
     width: 50%;
-    margin-top: 0px;
+    margin: 0px 20px 10px 0px;
 }
 
 .education-element2 {
@@ -88,8 +90,163 @@ h1 {
 }
 
 .borde {
-    padding-left: 10px;
+    padding-left: 30px;
     border-left: 3px solid #757575;
+    margin-bottom: 20px;
 
 }
 
+.title2 {
+    color: black;
+}
+
+#experience{
+    border-bottom: 3px;
+}
+
+.experience {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.experience-container {
+    display: flex;
+}
+
+.experience-element {
+    width: 50%;
+    margin: 0px 20px 10px 0px;
+}
+
+.experience-element2 {
+    width: 50%;
+    padding: 0px 25px 25px 0px;
+}
+.experience-container2 {
+    display: flex;
+    border-bottom: 3px solid #757575;
+}
+
+.borde {
+    padding-left: 30px;
+    border-left: 3px solid #757575;
+    margin-bottom: 20px;
+
+}
+
+#skills{
+    border-bottom: 3px solid #757575;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills-element {
+    width: 50%;
+    margin: 0px 20px 10px 0px;
+}
+
+.skills-element2 {
+    width: 50%;
+    padding: 0px 25px 25px 0px;
+}
+
+.borde {
+    padding-left: 30px;
+    border-left: 3px solid #757575;
+    margin-bottom: 20px;
+
+}
+
+#projects{
+    border-bottom: 3px;
+}
+
+.projects {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.projects-container {
+    display: flex;
+}
+
+.projects-element {
+    width: 50%;
+    margin: 0px 20px 10px 0px;
+}
+
+.projects-element2 {
+    width: 50%;
+    padding: 0px 25px 25px 0px;
+}
+.projects-container2 {
+    display: flex;
+    border-bottom: 3px solid #757575;
+}
+
+.borde {
+    padding-left: 30px;
+    border-left: 3px solid #757575;
+    margin-bottom: 20px;
+
+}
+
+#languages-certification{
+    border-bottom: 3px solid #757575;
+}
+
+.languages-certification {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+.languages-certification-container {
+    display: flex;
+}
+
+.languages-certification-element {
+    width: 50%;
+    margin: 0px 20px 10px 0px;
+}
+
+.languages-certification-element2 {
+    width: 50%;
+    padding: 0px 25px 25px 0px;
+}
+
+.borde {
+    padding-left: 30px;
+    border-left: 3px solid #757575;
+    margin-bottom: 20px;
+
+}
+
+#hobbies {
+
+}
+
+.hobbies-container ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+i {
+    border-image: round;
+}
